@@ -1,0 +1,42 @@
+/*  Dagi Girma
+*   Assignment - Full-Stack Development
+*   December 2021
+*   This css serves as a stylesheet for the courseslist webpage.
+*/
+html{   /*Modify the overall page layout*/
+    background: rgb(3,6,23);
+    background: linear-gradient(174deg, rgba(3,6,23,1) 0%, rgba(255,255,255,1) 100%);
+}
+body{    /*Make the body contents look bigger*/
+    font-size: 50pt;
+}
+
+#add{  /**Make the add course section look better*/
+    background-color: cyan;
+}
+
+#link, #link2, #link3{
+    font-size: 35pt;
+    font-style: oblique; 
+
+    
+}
+#greet{   /*Make the greeting to the user look nice*/
+    background: rgb(179,177,178);
+    background: linear-gradient(208deg, rgba(179,177,178,1) 28%, rgba(72,134,55,1) 74%);
+    font-family: cursive;
+}
+button{   /*Used to modify the two courselist and instructor list buttons*/
+    background-color: ivory;
+    font-size: 35pt;
+}
+#courseList{    /*used to highlight the list of courses section*/ 
+    background-color: cyan;
+}
+#instructors{   /*used to highlight the list of instructors section*/
+    background-color: cyan;
+}
+ul{   /*modify the layout of things being listed*/
+   font-size: 30pt;
+   font-style: oblique; 
+}
